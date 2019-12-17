@@ -32,7 +32,7 @@ class CashRegister
   
   def void_last_transaction
     removed = @items.pop
-    
+    binding.pry
   end 
   
 end 
