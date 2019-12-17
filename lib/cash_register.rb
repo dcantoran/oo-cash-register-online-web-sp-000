@@ -2,7 +2,6 @@ require 'pry'
 
 class CashRegister
   attr_accessor :total, :discount, :title
-  attr_reader :items
   
   def initialize(discount = nil)
     @total = 0 
@@ -22,6 +21,10 @@ class CashRegister
     else
       "There is no discount to apply."
     end 
+  end 
+  
+  def items 
+    
   end 
   
 end 
